@@ -1,7 +1,13 @@
 body {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	background: none;
+  color: #FFF;
+  font-weight: 100;
+}
+
+a,
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .full {
@@ -12,17 +18,56 @@ body {
   background-size: cover;
 }
 
-.navbar {
-  background-color: rgba(0,0,0,0.6);
+.sidebar {
+  background-color: rgba(0,0,0,0.5);
   border: none;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.message {
-  background-color: rgba(255, 255, 255, 0.3);
-  text-align: center;
-  position: fixed;
-  bottom: 100px;
-  right: 0;
-  left: 0;
+.sidebar .sidebarContent {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: 100%;
+  display: table;
+  padding: 0 7% 0 7%;
 }
+
+.sidebar h1 {
+  font-size: 1.8em;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.sidebar .sidebarContent .largeLink {
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #FFF;
+  margin: 0 0 10px 0;
+
+  -webkit-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -ms-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+  
+  display: inline-block;
+  float: left;
+}
+
+.sidebar .sidebarContent .largeLink:hover {
+  background-color: #FFF;
+  color: #111;
+  border-color: #FFF;
+}
+
+
