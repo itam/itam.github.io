@@ -15,6 +15,10 @@ body {
 
 }
 
+.row {
+    height: 100%;
+}
+
 a, a:visited, a:link, a:active, a:hover {
   color: #FFF;
   text-decoration: none;
