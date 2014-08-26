@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -16,30 +16,34 @@
 </head>
 
 <body>
-    <div class="sidebar">
-	<div class="sidebarContent">
-            <h1>Reylance.com</h1>
-		<div class="social">
-		    <a href="http://linai.deviantart.com" target="_blank"><i class="fa fa-deviantart"></i></a>
-		    <a href="http://pinterest.com/linaireylance" target="_blank"><i class="fa fa-pinterest"></i></a>
-		</div>
+    <div class="row">
+        <div class="container col-xs-12 col-md-8 col-md-push-4">
+            {{ content }}
+        </div>
 
-		<ul class="menu">
-		    <li><a href="/about">About</a></li>
-		    <li><a href="http://art.reylance.com">Artwork</a></li>
-  	   	    <li><a href="http://vrhapsody.com/category/tech" target="_blank">Coding</a></li>
-	    	    <li><a href="http://food.reylance.com">Food</a></li>
-		    <li><a href="http://linai.storenvy.com" target="_blank">Merchandise</a></li>
-		</ul>
+        <div class="sidebar col-xs-12 col-md-4 col-md-pull-8">
+            <div class="sidebarContent">
+                    <a href="/"><h1>Reylance.com</h1></a>
+                <div class="social">
+                    <a href="http://linai.deviantart.com" target="_blank"><i class="fa fa-deviantart"></i></a>
+                    <a href="http://pinterest.com/linaireylance" target="_blank"><i class="fa fa-pinterest"></i></a>
+                </div>
 
-            <a href="/contact">Contact</a> / 
-	    <a href="/policy">Policy</a> / 
-            <a href="/pricing">Pricing</a>
-	</div>
-    </div>
+                <ul class="menu">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="http://art.reylance.com">Artwork</a></li>
+                    <li><a href="http://vrhapsody.com/category/tech" target="_blank">Coding</a></li>
+                    <li><a href="http://food.reylance.com">Food</a></li>
+                    <li><a href="http://linai.storenvy.com" target="_blank">Merchandise</a></li>
+                </ul>
 
-    <div class="container">
-        {{ content }}
+                <div class="submenu">
+                    <a href="/contact">Contact</a> /
+                    <a href="/policy">Policy</a> /
+                    <a href="/pricing">Pricing</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="js/jquery-1.10.2.js"></script>
