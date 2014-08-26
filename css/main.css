@@ -1,18 +1,18 @@
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #FFF;
-  height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFF;
+    height: 100%;
 
-  background: url(/images/bkg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+    background: url(/images/bkg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
 }
 
 .row {
@@ -20,98 +20,112 @@ body {
 }
 
 a, a:visited, a:link, a:active, a:hover {
-  color: #FFF;
-  text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .sidebar {
-  background-color: rgba(0,0,0,0.5);
-  height: 100%;
-  text-align: center;
-  text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .sidebar .sidebarContent {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  display: table;
-  letter-spacing: 1px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: table;
+    letter-spacing: 1px;
 }
 
 .sidebar h1 {
-  font-size: 2em;
-  letter-spacing: 4px;
-  font-weight: 100;
+    font-size: 2em;
+    letter-spacing: 4px;
+    font-weight: 100;
 }
 
 .sidebar .sidebarContent .largeLink {
-  font-size: 1.2em;
-  font-weight: 300;
-  letter-spacing: 2px;
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #FFF;
-  margin: 0 0 10px 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FFF;
+    margin: 0 0 10px 0;
 
-  -webkit-transition: background-color 0.4s linear;
-  -moz-transition: background-color 0.4s linear;
-  -o-transition: background-color 0.4s linear;
-  -ms-transition: background-color 0.4s linear;
-  transition: background-color 0.4s linear;
-  
-  display: inline-block;
-  float: left;
+    -webkit-transition: background-color 0.4s linear;
+    -moz-transition: background-color 0.4s linear;
+    -o-transition: background-color 0.4s linear;
+    -ms-transition: background-color 0.4s linear;
+    transition: background-color 0.4s linear;
+
+    display: inline-block;
+    float: left;
 }
 
 .sidebar .sidebarContent .social {
-  font-size: 1.8em;
-  margin-top: .8em;
-  margin-bottom: .8em;
-  letter-spacing: .2em;
+    font-size: 1.8em;
+    margin-top: .8em;
+    margin-bottom: .8em;
+    letter-spacing: .2em;
 }
 
 .sidebar .sidebarContent .menu {
-  list-style: none;
-  padding: 0;
-  font-size: 1.2em;
-  font-weight: 100;
-  line-height: 2em;
-  margin-bottom: .8em;
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 2em;
+    margin-bottom: .8em;
 }
 
 .sidebar .sidebarContent .submenu {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .sidebar .sidebarContent .largeLink:hover {
-  background-color: #FFF;
-  color: #111;
-  border-color: #FFF;
+    background-color: #FFF;
+    color: #111;
+    border-color: #FFF;
+}
+
+.container {
+    padding: 3em;
+}
+
+.container h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
+    font-style: italic;
+}
+
+.container .heading {
+    z-index: 1; /* not proud of this */
+    position:relative;
+    top: 17px;
+    text-align: right;
+    padding-right: 20px;
+    color: #000;
+    opacity: .5;
 }
 
 .content {
-  background-color: rgba(0,0,0,0.2);
-  position: relative;
-  margin: 3em;
-  padding: 3em;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 3em;
 
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 
-.content h1 {
-  font-style: italic;
+.content a {
+    color: #FFCC66;
 }
 
 .notFound.content .message {
-  margin-top: 3em;
-  text-align: right;
-}
-
-.notFound.content .message a {
-  color: #FFCC66;
+    margin-top: 3em;
+    text-align: right;
 }
