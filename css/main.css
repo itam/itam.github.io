@@ -17,6 +17,7 @@ body {
 
 .row {
     height: 100%;
+    margin: 0;
 }
 
 a, a:visited, a:link, a:active, a:hover {
