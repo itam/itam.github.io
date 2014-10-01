@@ -22,6 +22,10 @@
             <div class="sidebar col-xs-12 col-md-4">
         {% else %}
             <div class="container col-xs-12 col-md-8 col-md-push-4">
+                {% if page.title %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+
                 {{ content }}
             </div>
 
@@ -31,22 +35,23 @@
             <div class="sidebarContent">
                     <a href="/"><h1>Reylance.com</h1></a>
                 <div class="social">
-                    <a href="http://linai.deviantart.com" target="_blank"><i class="fa fa-deviantart"></i></a>
+                    <a href="http://facebook.com/linaireylance" target="_blank"><i class="fa fa-facebook-square"></i></a>
                     <a href="http://pinterest.com/linaireylance" target="_blank"><i class="fa fa-pinterest"></i></a>
+                    <a href="http://linai.deviantart.com" target="_blank"><i class="fa fa-deviantart"></i></a>
+                    <a href="https://www.behance.net/reylance" target="_blank"><i class="fa fa-behance-square"></i></a>
+                    <a href="https://github.com/itam" target="_blank"><i class="fa fa-github"></i></a>
                 </div>
 
                 <ul class="menu">
-                    <li><a href="/about">About</a></li>
                     <li><a href="http://art.reylance.com">Artwork</a></li>
                     <li><a href="http://vrhapsody.com/category/tech" target="_blank">Coding</a></li>
                     <li><a href="http://food.reylance.com">Food</a></li>
-                    <li><a href="http://linai.storenvy.com" target="_blank">Merchandise</a></li>
                 </ul>
 
                 <div class="submenu">
-                    <a href="/contact">Contact</a> /
-                    <a href="/policy">Policy</a> /
-                    <a href="/pricing">Pricing</a>
+                    <a href="/about">About</a> /
+                    <a href="http://linai.storenvy.com" target="_blank">Merchandise</a> /
+                    <a href="/policy">Policy</a>
                 </div>
             </div>
         </div>
