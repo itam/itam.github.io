@@ -94,10 +94,9 @@ a, a:visited, a:link, a:active, a:hover {
 }
 
 .container {
-    padding: 3em;
     color: #3a3a3a;
+    padding: 1em 3em 1em 3em;
     background-color: rgba(255, 255, 255, 0.2);
-    height: 100%;
 }
 
 .container > h1 {
@@ -123,10 +122,6 @@ a, a:visited, a:link, a:active, a:hover {
     font-weight: 300;
     margin-bottom: 48px;
     font-size: 1em;
-
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
 }
 
 .content:only-child,
@@ -159,4 +154,11 @@ a, a:visited, a:link, a:active, a:hover {
     margin-top: 3em;
     text-align: center;
     font-size: 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 100%;
+        overflow-x: auto;
+    }
 }
