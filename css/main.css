@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", 'HelveticaNeue', 'Open Sans Condensed', Arial, sans-serif;
     height: 100%;
 
     background: url(/images/bkg.jpg) no-repeat center center fixed;
@@ -68,7 +68,7 @@ a, a:visited, a:link, a:active, a:hover {
 }
 
 .sidebar .sidebarContent .social {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: .8em;
     margin-bottom: .8em;
     letter-spacing: .2em;
